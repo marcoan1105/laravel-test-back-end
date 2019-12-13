@@ -8,7 +8,7 @@ Composer
 
 ### Instalação
 
-- Terminal: git clone laravel-test-back-end
+- Terminal: git clone https://github.com/marcoan1105/laravel-test-back-end.git
 
 - Terminal: cd laravel-test-back-end
 
