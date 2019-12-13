@@ -105,6 +105,15 @@ class ColorController extends Controller
         $color =  Color::find($id);
 
         if($color){
+
+            $products = $color->products();
+
+            if($products){
+                if(count($products) > 0){
+                    return ResponseController::returnApi(false, null, "Não é possível deletar essa cor, ela está sendo utilizada por um produto.");
+                }
+            }
+
             $color->delete();
             return ResponseController::returnApi(true, null, "Cor deletada com sucesso.");
         }else{
