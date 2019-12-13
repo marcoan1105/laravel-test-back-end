@@ -15,7 +15,11 @@ Composer
 
 - Terminal: composer install
 
-- Ajuste o arquivo .env com as configurações (banco de dados, chave de segurança)
+- Copie o arquivo .env.example para .env e ajuste as configurações do banco de dados mysql
+
+- Crie a base de dados inforama no arquivo .env em seu servidor mysql
+
+- Terminal: php artisan jwt:secret
 
 - Terminal: php artisan migrate
 
