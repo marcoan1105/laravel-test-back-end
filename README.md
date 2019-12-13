@@ -23,4 +23,4 @@ Composer
  - Terminal: php artisan serve
 
 #### Postman
-  - https://www.getpostman.com/collections/a0105c320ba5c65e18e3
+  - Collection para importar no Postman: https://www.getpostman.com/collections/a0105c320ba5c65e18e3
