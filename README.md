@@ -3,7 +3,7 @@
 
 PHP >= 7.1
 
-MariaDB >= 10.1 ou Equivalente 
+MySql >= 5 ou Equivalente 
 
 Composer
 
