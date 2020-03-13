@@ -17,7 +17,7 @@ Composer
 
 - Copie o arquivo .env.example para .env e ajuste as configurações do banco de dados mysql
 
-- Crie a base de dados inforama no arquivo .env em seu servidor mysql
+- Crie a base de dados informada no arquivo .env em seu servidor mysql
 
 - Terminal: php artisan jwt:secret
 
